@@ -111,6 +111,8 @@
     <Content Include="index.html" />
     <Content Include="WebApiExample.html" />
     <Content Include="WebFormExample.aspx" />
+    <None Include="Properties\PublishProfiles\testLineBotSdkExample - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\testLineBotSdkExample - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -126,6 +128,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ExampleController.cs" />
+    <Compile Include="Controllers\LineChatController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
