@@ -89,6 +89,33 @@
                     </div>
                 </div>
             </div>
+            <!--傳送Button Template Message-->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    範例
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <br />
+                        <label>傳送Button Template訊息 : </label>
+                        <br />
+                        <div class="col-xs-12">
+                            <div class="col-xs-6">
+                                <label>text:</label>
+                                <asp:TextBox ID="txbButtonTemplateText" CssClass="form-control" runat="server" Text="ButtonsTemplate文字訊息"></asp:TextBox>
+                            </div>
+                            <div class="col-xs-6">
+                                <label>Title:</label>
+                                <asp:TextBox ID="txbButtonTemplateTitle" CssClass="form-control" runat="server" Text="ButtonsTemplate標題"></asp:TextBox>
+                            </div>
+                            <div class="col-xs-12">
+                                <br />
+                                <asp:Button ID="Button_SendButtonTemplate" CssClass="btn btn-primary" runat="server" Text="傳送Button Template Message" OnClick="Button_SendButtonTemplate_Click" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
 </body>
